@@ -1,0 +1,33 @@
+{
+  "originHash" : "8798f917a69b87a8959daff0ac2407a32e06ef540fe5f964fd95ced642e11f85",
+  "pins" : [
+    {
+      "identity" : "couchbase-lite-swift-ee",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/couchbase/couchbase-lite-swift-ee.git",
+      "state" : {
+        "revision" : "78a1fb353b9c5751a0e1da2464252bf7ef93b0bd",
+        "version" : "4.0.4"
+      }
+    },
+    {
+      "identity" : "couchbase-lite-vector-search-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/couchbase/couchbase-lite-vector-search-spm.git",
+      "state" : {
+        "revision" : "0d275616008c0774c82cf39c9b9d915b37b69b78",
+        "version" : "2.0.0"
+      }
+    },
+    {
+      "identity" : "llm.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/eastriverlee/LLM.swift",
+      "state" : {
+        "revision" : "4b2517839f24498bea0695bae8967b359b9a35c4",
+        "version" : "1.8.0"
+      }
+    }
+  ],
+  "version" : 3
+}

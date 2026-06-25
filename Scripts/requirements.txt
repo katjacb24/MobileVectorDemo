@@ -1,0 +1,22 @@
+# Dependencies for Scripts/convert_siglip.py (SigLIP → Core ML conversion).
+#
+# REQUIRES Python 3.11, 3.12, or 3.13. Do NOT use Python 3.14:
+#   PyTorch <=2.7.0 publishes no wheels for 3.14, so the install fails with
+#   "No matching distribution found for torch". coremltools 9 is only validated
+#   with torch <=2.7.0, hence the ceiling.
+#
+# These are EXACT pins of a verified-working set (macOS arm64, Python 3.13,
+# 2026-06-15). They convert in one shot. If you relax them, mind these traps:
+#   • transformers 4.44.x and older pull a tokenizers version with no 3.13 wheel,
+#     so pip tries to compile it from Rust source and fails. 4.46.3 has wheels.
+#   • The SigLIP vision head uses torch.nn.MultiheadAttention, which traces to an
+#     op coremltools cannot convert ("only 0-dimensional arrays..."). convert_siglip.py
+#     works around this by replacing that head with an equivalent manual attention,
+#     so the conversion no longer depends on the transformers version for this.
+torch==2.7.0
+transformers==4.46.3
+tokenizers==0.20.3
+coremltools==9.0
+sentencepiece==0.2.1
+pillow>=9.0.0
+numpy>=1.17

@@ -1,0 +1,28 @@
+[
+  {
+    "image": "longsleeve_blue_shirt.jpg",
+    "sku": "SHIRT-OX-BLU-001",
+    "name": "Long-Sleeve Oxford Shirt",
+    "description": "Light-blue long-sleeve button-up Oxford shirt with a classic point collar.",
+    "category": { "department": "Men", "type": "Tops", "subtype": "Shirts" },
+    "color": "blue",
+    "material": "100% cotton",
+    "sizes": ["S", "M", "L", "XL"],
+    "price": { "amount": 59.00, "currency": "EUR" },
+    "tags": ["formal", "oxford", "long-sleeve", "blue", "button-up"],
+    "stock": 32
+  },
+  {
+    "image": "redshirt_shortsleeve.jpg",
+    "sku": "TEE-CN-RED-003",
+    "name": "Classic Crew-Neck T-Shirt",
+    "description": "Everyday red short-sleeve crew-neck t-shirt in soft combed cotton.",
+    "category": { "department": "Men", "type": "Tops", "subtype": "T-Shirts" },
+    "color": "red",
+    "material": "100% combed cotton",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "price": { "amount": 24.00, "currency": "EUR" },
+    "tags": ["casual", "crew-neck", "short-sleeve", "red", "t-shirt"],
+    "stock": 75
+  }
+]

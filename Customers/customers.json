@@ -1,0 +1,652 @@
+[
+  {
+    "name": "Sofia Marchetti",
+    "gender": "female",
+    "previousPurchases": [
+      "navy silk scarf",
+      "black leather handbag",
+      "gold drop earrings"
+    ],
+    "size": "M",
+    "time": "09:30",
+    "date": "",
+    "customerInsight": "Drawn to classic accessories in a refined, timeless palette of navy, black, and gold. Invests in statement pieces that elevate an outfit rather than overhauling it entirely. Shows a preference for silk and leather — quality fabrics with a polished finish. Likely builds outfits around a neutral wardrobe and shops for accessories to complete the look."
+  },
+  {
+    "name": "James Whitfield",
+    "gender": "male",
+    "previousPurchases": [
+      "camel wool coat",
+      "brown leather boots",
+      "tweed blazer"
+    ],
+    "size": "M",
+    "time": "10:15",
+    "date": "",
+    "customerInsight": "Strong preference for traditional British tailoring and outerwear. Gravitates toward warm earth tones — camel, brown, and tweed patterns. Purchases quality investment pieces with longevity in mind rather than seasonal trends. Likely interested in coordinated smart-casual looks. Has not yet purchased trousers or shirts in store — potential upsell opportunity."
+  },
+  {
+    "name": "Amara Okafor",
+    "gender": "female",
+    "previousPurchases": [
+      "red satin dress",
+      "gold heels",
+      "velvet clutch"
+    ],
+    "size": "M",
+    "time": "11:00",
+    "date": "",
+    "customerInsight": "Gravitates toward bold, glamorous occasion wear. Shows a clear affinity for rich fabrics — satin and velvet — and prefers striking colors like red. Gold tones feature consistently across footwear and accessories. Likely shops for special events rather than day-to-day wear. May respond well to new arrivals in jewel tones or luxurious eveningwear."
+  },
+  {
+    "name": "Liam O'Connor",
+    "gender": "male",
+    "previousPurchases": [
+      "blue denim jacket",
+      "white cotton shirt",
+      "canvas sneakers"
+    ],
+    "size": "S",
+    "time": "09:45",
+    "date": "",
+    "customerInsight": "Relaxed and casual dresser with a preference for everyday basics in a clean, easy palette of blue, white, and natural tones. Denim is a wardrobe staple. Values comfort and practicality over formality. Likely responds better to casual and smart-casual suggestions rather than formal or tailored options. Good candidate for new denim styles or updated casual basics."
+  },
+  {
+    "name": "Yuki Tanaka",
+    "gender": "female",
+    "previousPurchases": [
+      "beige cashmere sweater",
+      "linen trousers",
+      "leather belt"
+    ],
+    "size": "XS",
+    "time": "14:30",
+    "date": "",
+    "customerInsight": "Minimalist aesthetic with a clear preference for neutral tones — beige, linen, and natural leather. Invests in quality natural-fibre pieces that form a cohesive capsule wardrobe. Purchases suggest an eye for clean silhouettes and relaxed tailoring. Likely interested in Scandinavian or Japanese-inspired styles. Not known to buy bold colours or statement prints."
+  },
+  {
+    "name": "Elena Petrova",
+    "gender": "female",
+    "previousPurchases": [
+      "burgundy velvet dress",
+      "black suede boots",
+      "silk blouse"
+    ],
+    "size": "XS",
+    "time": "13:15",
+    "date": "",
+    "customerInsight": "Sophisticated taste with a preference for rich jewel tones and luxurious textures. Burgundy and black dominate her palette, giving her look a consistently polished, evening-ready feel. Chooses structured footwear and elegant silhouettes. Likely drawn to velvet, silk, and suede. Rarely purchases casual items — recommendations should lean toward refined feminine dressing."
+  },
+  {
+    "name": "Marcus Chen",
+    "gender": "male",
+    "previousPurchases": [
+      "grey wool suit",
+      "leather watch",
+      "navy knit sweater"
+    ],
+    "size": "L",
+    "time": "10:30",
+    "date": "",
+    "customerInsight": "Classic menswear sensibility with a focus on professional and semi-formal attire. Prefers grey and navy — reliable, versatile tones that pair easily. Invests in quality accessories such as a leather watch, suggesting attention to detail. Knit layers indicate a preference for smart-casual comfort alongside formal pieces. Likely interested in tailored trousers, dress shirts, and premium knitwear."
+  },
+  {
+    "name": "Priya Sharma",
+    "gender": "female",
+    "previousPurchases": [
+      "green silk dress",
+      "gold necklace",
+      "beige handbag"
+    ],
+    "size": "XS",
+    "time": "15:00",
+    "date": "",
+    "customerInsight": "Balances vibrant colour with neutral accessories — a jewel-toned dress paired with gold jewellery and a beige bag. Silk is a preferred fabric, suggesting a taste for refined, feminine silhouettes. Accessories are restrained and complementary rather than competing. May be interested in other silk or satin pieces in bold but elegant tones such as emerald, sapphire, or coral."
+  },
+  {
+    "name": "Noah Bergstrom",
+    "gender": "male",
+    "previousPurchases": [
+      "black leather jacket",
+      "denim jeans",
+      "white sneakers"
+    ],
+    "size": "XXL",
+    "time": "11:45",
+    "date": "",
+    "customerInsight": "Urban casual aesthetic with a strong lean toward edgy staples — leather, denim, and clean white sneakers. Palette is predominantly monochrome: black and white. Not a formal dresser; all purchases point firmly to casual everyday wear. Leather outerwear is a priority purchase. Could respond well to streetwear-adjacent styles, updated denim cuts, or premium casual footwear."
+  },
+  {
+    "name": "Isabella Rossi",
+    "gender": "female",
+    "previousPurchases": [
+      "ivory cashmere coat",
+      "pink silk scarf",
+      "suede gloves"
+    ],
+    "size": "S",
+    "time": "16:30",
+    "date": "",
+    "customerInsight": "Feminine and luxurious taste, with a preference for soft, delicate colours — ivory, blush, and pale pink. Every purchase reflects a commitment to premium materials: cashmere, silk, and suede. Accessories and layering pieces dominate her history rather than core garments — possible opportunity to introduce coordinating knitwear or tailored coats. Responds well to seasonal luxury pieces."
+  },
+  {
+    "name": "Olivia Bennett",
+    "gender": "female",
+    "previousPurchases": [
+      "red wool coat",
+      "black ankle boots",
+      "leather tote bag"
+    ],
+    "size": "XS",
+    "time": "09:00",
+    "date": "",
+    "customerInsight": "Confident and functional dresser who uses bold outerwear as her signature statement. Red is a go-to accent colour, balanced by black footwear and a practical leather tote. Prioritises well-made pieces that work across multiple occasions. Ankle boots suggest she is comfortable with cropped or midi-length silhouettes. Likely interested in structured coats, quality bags, and versatile workwear."
+  },
+  {
+    "name": "Hugo Lefebvre",
+    "gender": "male",
+    "previousPurchases": [
+      "navy cotton shirt",
+      "khaki chino trousers",
+      "brown loafers"
+    ],
+    "size": "M",
+    "time": "12:00",
+    "date": "",
+    "customerInsight": "Smart casual dresser with a relaxed, continental edge. Colour palette centres on navy, khaki, and warm brown — easy coordinates that work from office to weekend. Loafers suggest a preference for polished but comfortable footwear. All purchases indicate a cohesive capsule style rather than impulse buying. May be interested in linen shirts, chino variations, or lightweight outerwear for layering."
+  },
+  {
+    "name": "Mei Lin",
+    "gender": "female",
+    "previousPurchases": [
+      "pink linen dress",
+      "white sandals",
+      "straw handbag"
+    ],
+    "size": "M",
+    "time": "14:00",
+    "date": "",
+    "customerInsight": "Light, summery aesthetic with a preference for natural materials — linen and straw — in a soft, warm palette of pink and white. Relaxed silhouettes and open footwear suggest a preference for comfort and breathability. Shopping pattern reflects warm-weather dressing almost exclusively. May respond well to floral prints, wrap dresses, or new linen arrivals in pastel tones."
+  },
+  {
+    "name": "Daniel Kowalski",
+    "gender": "male",
+    "previousPurchases": [
+      "charcoal tweed jacket",
+      "wool scarf",
+      "leather brogues"
+    ],
+    "size": "XL",
+    "time": "17:15",
+    "date": "",
+    "customerInsight": "Refined Central European sensibility with a fondness for textured fabrics — tweed and wool — in a muted charcoal and brown palette. Footwear choice signals a preference for quality craftsmanship and classic silhouettes. Likely dresses for structured, professional or smart-social occasions. Has not purchased trousers or base layers in store — strong upsell potential for tailored trousers or quality shirts."
+  },
+  {
+    "name": "Aisha Rahman",
+    "gender": "female",
+    "previousPurchases": [
+      "emerald silk gown",
+      "gold bangles",
+      "satin clutch"
+    ],
+    "size": "XS",
+    "time": "10:45",
+    "date": "",
+    "customerInsight": "Glamorous, occasion-focused shopper with a taste for bold jewel tones and luxurious fabrics. Emerald and gold feature prominently — a pairing that signals she enjoys making a striking entrance. Accessories are chosen to complement and amplify rather than understate. All purchases point to formal and gala events. May be interested in other floor-length gowns or embellished pieces in sapphire, ruby, or deep plum."
+  },
+  {
+    "name": "Lucas Moreau",
+    "gender": "male",
+    "previousPurchases": [
+      "blue linen blazer",
+      "white polo shirt",
+      "tan suede loafers"
+    ],
+    "size": "M",
+    "time": "13:30",
+    "date": "",
+    "customerInsight": "Relaxed Mediterranean style — linen, polo shirts, and suede loafers in a palette of blue, white, and tan. Prefers smart-casual with an effortless, warm-weather feel. Linen dominates as a preferred fabric. Likely shops seasonally and prioritises breathability and ease of wear. Could respond well to linen trousers, cotton shirts, or lightweight summer outerwear in coordinating neutral tones."
+  },
+  {
+    "name": "Greta Nilsson",
+    "gender": "female",
+    "previousPurchases": [
+      "cream wool cardigan",
+      "grey pleated skirt",
+      "pearl earrings"
+    ],
+    "size": "XS",
+    "time": "16:00",
+    "date": "",
+    "customerInsight": "Quiet, understated Scandinavian elegance — cream, grey, and pearl reflect a deliberate preference for soft neutrals and classic femininity. Pleated skirts and cardigans suggest she favours structured but comfortable silhouettes. Accessories are subtle and timeless. Does not appear to shop for bold colours or statement prints. Would respond well to cashmere, merino knitwear, or A-line skirts in muted tones."
+  },
+  {
+    "name": "Rafael Santos",
+    "gender": "male",
+    "previousPurchases": [
+      "black denim jacket",
+      "graphic cotton tee",
+      "white trainers"
+    ],
+    "size": "XXL",
+    "time": "11:30",
+    "date": "",
+    "customerInsight": "Streetwear-influenced casual dresser with a preference for bold silhouettes and comfortable staples. Black denim and graphic tees point to a youthful, expressive approach to style. Footwear is clean and contemporary — white trainers are a wardrobe constant. Not a formal dresser. Likely interested in new trainer drops, oversized outerwear, or premium graphic tees rather than tailored or traditional pieces."
+  },
+  {
+    "name": "Chloe Dubois",
+    "gender": "female",
+    "previousPurchases": [
+      "beige trench coat",
+      "silk neck scarf",
+      "leather crossbody bag"
+    ],
+    "size": "M",
+    "time": "15:45",
+    "date": "",
+    "customerInsight": "Classic Parisian sensibility — the trench coat, silk scarf, and leather bag are the definitive French wardrobe trifecta. Palette is restrained and neutral: beige and warm tones. Accessories are carefully chosen and functional without sacrificing elegance. Likely builds a wardrobe of enduring basics rather than trend-driven pieces. Good candidate for quality basics, coordinating belts, or silk blouses."
+  },
+  {
+    "name": "Kenji Watanabe",
+    "gender": "male",
+    "previousPurchases": [
+      "navy wool overcoat",
+      "cashmere scarf",
+      "black leather gloves"
+    ],
+    "size": "S",
+    "time": "09:15",
+    "date": "",
+    "customerInsight": "Impeccably polished winter wardrobe builder. Every purchase reflects investment-quality cold-weather dressing: navy overcoat, cashmere scarf, leather gloves. Palette is disciplined — navy and black with tactile material contrast. Likely prioritises fit and fabric quality above all else. Has not purchased warmer-season items in store; may shop elsewhere for summer. Strong candidate for premium knitwear, tailored trousers, or dress shirts."
+  },
+  {
+    "name": "Valentina Cruz",
+    "gender": "female",
+    "previousPurchases": [
+      "red floral dress",
+      "gold hoop earrings",
+      "espadrille wedges"
+    ],
+    "size": "XS",
+    "time": "14:15",
+    "date": "",
+    "customerInsight": "Vibrant and expressive style with a Mediterranean summer sensibility. Loves colour — red and floral prints are recurring themes. Gold jewellery adds warmth without formality. Espadrille wedges reinforce a relaxed, warm-weather approach. Not a minimalist shopper; responds to bold prints, bright tones, and festive silhouettes. New arrivals in tropical prints or maxi dresses would likely appeal."
+  },
+  {
+    "name": "Thomas Muller",
+    "gender": "male",
+    "previousPurchases": [
+      "grey merino sweater",
+      "dark denim jeans",
+      "brown leather belt"
+    ],
+    "size": "M",
+    "time": "12:30",
+    "date": "",
+    "customerInsight": "Quietly stylish and reliable dresser who favours understated quality. Grey, dark denim, and brown leather form a cohesive, effortless palette. Merino wool signals a preference for premium natural fibres. Belt purchase suggests attention to completing and refining an outfit. Likely interested in smart-casual basics — quality chinos, Oxford shirts, or well-constructed knitwear in neutral tones."
+  },
+  {
+    "name": "Fatima Al-Sayed",
+    "gender": "female",
+    "previousPurchases": [
+      "black silk abaya",
+      "gold statement necklace",
+      "velvet handbag"
+    ],
+    "size": "XS",
+    "time": "18:00",
+    "date": "",
+    "customerInsight": "Elegant and sophisticated with a preference for modest, full-coverage silhouettes in black, enhanced by striking gold accessories. Silk and velvet reflect an appreciation for luxurious textures. Statement jewellery is an important part of her look. Likely values coverage, quality fabric drape, and refined embellishment. May respond well to embroidered abayas, silk kaftans, or other elevated modest-wear options."
+  },
+  {
+    "name": "Ethan Wright",
+    "gender": "male",
+    "previousPurchases": [
+      "olive cotton jacket",
+      "white linen shirt",
+      "canvas espadrilles"
+    ],
+    "size": "XL",
+    "time": "10:00",
+    "date": "",
+    "customerInsight": "Relaxed and outdoorsy with an easy warm-weather style. Gravitates toward natural tones — olive, white, and natural canvas — and breathable fabrics like cotton and linen. All purchases suggest a casual summer wardrobe with a subtle utility edge. Not drawn to formal or structured pieces. Good candidate for linen shorts, casual overshirts, or outdoor-inspired footwear."
+  },
+  {
+    "name": "Anna Schmidt",
+    "gender": "female",
+    "previousPurchases": [
+      "camel cashmere coat",
+      "ivory silk blouse",
+      "leather ankle boots"
+    ],
+    "size": "XS",
+    "time": "16:45",
+    "date": "",
+    "customerInsight": "Refined and classic with a warm neutral palette of camel, ivory, and tan leather. Every purchase is an investment piece chosen for longevity over trend. Cashmere and silk signal a strong preference for premium natural materials. Ankle boots suggest she is comfortable in both cropped and full-length silhouettes. Likely building a polished work or occasion wardrobe. May respond well to tailored blazers, silk trousers, or fine knitwear."
+  },
+  {
+    "name": "Diego Fernandez",
+    "gender": "male",
+    "previousPurchases": [
+      "navy pinstripe suit",
+      "silk tie",
+      "black oxford shoes"
+    ],
+    "size": "M",
+    "time": "13:00",
+    "date": "",
+    "customerInsight": "Formal and immaculately turned out — a pinstripe suit, silk tie, and Oxford shoes form the quintessential professional wardrobe. Navy dominates as the primary colour of choice. Likely dresses for a business environment with high sartorial expectations. Has purchased exclusively formal items in store. Good candidate for dress shirts, pocket squares, formal trousers, or a second suit in charcoal or grey."
+  },
+  {
+    "name": "Leila Hassan",
+    "gender": "female",
+    "previousPurchases": [
+      "teal silk kaftan",
+      "gold sandals",
+      "beaded clutch"
+    ],
+    "size": "XS",
+    "time": "11:15",
+    "date": "",
+    "customerInsight": "Bohemian and globally inspired with a love of flowing silhouettes and rich jewel tones. Teal is a favourite colour — bold but sophisticated. Gold accessories and artisan beading add warmth and texture. Kaftans indicate a preference for relaxed, fluid garments rather than structured tailoring. Would respond well to embroidered pieces, resort wear, or artisan-crafted accessories in coral, turquoise, or deep amber."
+  },
+  {
+    "name": "Oscar Lindgren",
+    "gender": "male",
+    "previousPurchases": [
+      "grey wool peacoat",
+      "knit beanie",
+      "leather chelsea boots"
+    ],
+    "size": "XXL",
+    "time": "17:45",
+    "date": "",
+    "customerInsight": "Practical Nordic style with an emphasis on quality cold-weather outerwear. Grey wool, a knit beanie, and chelsea boots form a versatile, layered winter look. Prefers understated silhouettes that perform in real weather. Chelsea boots suggest he bridges casual and smart occasions comfortably. May be interested in heavy knit sweaters, scarves, or technical outerwear in navy, grey, or forest green."
+  },
+  {
+    "name": "Camila Reyes",
+    "gender": "female",
+    "previousPurchases": [
+      "white cotton sundress",
+      "tan leather sandals",
+      "woven tote"
+    ],
+    "size": "S",
+    "time": "09:30",
+    "date": "",
+    "customerInsight": "Effortlessly casual warm-weather dresser who gravitates toward white, tan, and natural tones. All purchases reflect a holiday or coastal lifestyle — sundresses, leather sandals, and woven bags. Strongly prefers natural materials: cotton, leather, and woven straw. Not drawn to dark colours or formal attire. Would respond well to linen midi dresses, espadrilles, or handcrafted accessories in earthy or natural palettes."
+  },
+  {
+    "name": "Felix Bauer",
+    "gender": "male",
+    "previousPurchases": [
+      "charcoal hoodie",
+      "black joggers",
+      "white high-top sneakers"
+    ],
+    "size": "L",
+    "time": "15:15",
+    "date": "",
+    "customerInsight": "Athleisure-first dresser with an all-monochrome palette: charcoal, black, and white. Comfort and ease of movement are clear priorities. All purchases are casual and function-led — no formal or semi-formal items. Prefers elevated basics over statement pieces. Likely responds to premium streetwear, co-ordinated loungewear sets, or new sneaker styles rather than tailored or traditional options."
+  },
+  {
+    "name": "Nadia Volkova",
+    "gender": "female",
+    "previousPurchases": [
+      "burgundy wool dress",
+      "black tights",
+      "suede pumps"
+    ],
+    "size": "M",
+    "time": "12:45",
+    "date": "",
+    "customerInsight": "Polished and confident with a preference for rich autumnal tones — burgundy and deep wine — grounded by black. Structured wool dress and suede pumps indicate a preference for tailored, feminine silhouettes suited to professional or smart-social settings. Not drawn to casual wear or pastel palettes. Likely interested in midi-length dresses, wool skirts, or coordinated outfits in jewel tones."
+  },
+  {
+    "name": "Samuel Adebayo",
+    "gender": "male",
+    "previousPurchases": [
+      "royal blue blazer",
+      "white dress shirt",
+      "brown derby shoes"
+    ],
+    "size": "M",
+    "time": "10:15",
+    "date": "",
+    "customerInsight": "Expressive and sharp dresser who uses colour boldly within a smart framework. Royal blue as a blazer choice signals confidence and personality. The pairing of white and warm brown footwear shows strong colour awareness. Leans toward smart-casual to business-casual territory. Likely interested in other statement blazers, printed pocket squares, or trousers in cream, tan, or olive to complement his existing palette."
+  },
+  {
+    "name": "Hannah Park",
+    "gender": "female",
+    "previousPurchases": [
+      "pastel pink cardigan",
+      "pleated midi skirt",
+      "ballet flats"
+    ],
+    "size": "XS",
+    "time": "14:45",
+    "date": "",
+    "customerInsight": "Soft and feminine aesthetic with a clear preference for pastel tones and classic feminine silhouettes. Midi length is a consistent choice — she values modest, graceful proportions. Ballet flats reinforce a preference for elegant comfort over height. All pieces are coordinated and understated rather than bold. Likely responds well to floral prints, soft knitwear, or wrap dresses in blush, lilac, or mint."
+  },
+  {
+    "name": "Andrea Conti",
+    "gender": "female",
+    "previousPurchases": [
+      "green corduroy jacket",
+      "cream knit jumper",
+      "leather satchel"
+    ],
+    "size": "S",
+    "time": "09:00",
+    "date": "",
+    "customerInsight": "Earthy and grounded aesthetic with a fondness for textured fabrics and warm autumnal tones. Corduroy and knitwear indicate a preference for tactile, cosy pieces. Green and cream form a natural, harmonious palette. The leather satchel adds a practical, studious touch. Likely drawn to vintage-inspired or artisanal styles — could respond well to tweed, ribbed knitwear, or relaxed wide-leg trousers in olive or rust."
+  },
+  {
+    "name": "Maya Goldberg",
+    "gender": "female",
+    "previousPurchases": [
+      "black silk slip dress",
+      "gold anklet",
+      "strappy heels"
+    ],
+    "size": "S",
+    "time": "16:15",
+    "date": "",
+    "customerInsight": "Minimalist evening glamour with a confident, sensual edge. All purchases are occasion-focused and form a cohesive look: black silk, gold jewellery, and strappy heels. Prefers sleek, understated silhouettes rather than embellished or voluminous styles. Gold accessories are a recurring accent. Likely interested in other silk or satin evening pieces, barely-there sandals, or fine jewellery in a refined black-and-gold palette."
+  },
+  {
+    "name": "Pierre Rousseau",
+    "gender": "male",
+    "previousPurchases": [
+      "navy double-breasted coat",
+      "wool turtleneck",
+      "leather gloves"
+    ],
+    "size": "M",
+    "time": "13:45",
+    "date": "",
+    "customerInsight": "Classically French in his approach — structured outerwear, a clean turtleneck, and leather gloves speak to a disciplined, elegant sensibility. Navy dominates as his primary colour. Every piece is chosen with care for a coordinated winter wardrobe. Layers thoughtfully rather than adding decorative extras. Likely interested in fine merino knitwear, tailored wool trousers, or premium winter accessories."
+  },
+  {
+    "name": "Saanvi Patel",
+    "gender": "female",
+    "previousPurchases": [
+      "orange silk saree",
+      "gold jhumka earrings",
+      "embellished sandals"
+    ],
+    "size": "S",
+    "time": "11:00",
+    "date": "",
+    "customerInsight": "Rich cultural aesthetic with a love of vibrant, warm colours — orange and gold are dominant. Favours traditional and semi-traditional silhouettes alongside ornate accessories. Silk is a strongly preferred fabric. Embellishment and detail are important: jewellery and beaded footwear add personality. Likely also shops for traditional occasion wear around festivals and celebrations. May respond well to embroidered pieces, silk kurtas, or ethnic-fusion styles."
+  },
+  {
+    "name": "Connor Walsh",
+    "gender": "male",
+    "previousPurchases": [
+      "grey flannel shirt",
+      "blue jeans",
+      "brown work boots"
+    ],
+    "size": "L",
+    "time": "18:30",
+    "date": "",
+    "customerInsight": "Workwear-influenced casual dresser who values durability and practicality. Grey, blue denim, and brown leather are a reliable, unfussy palette. All purchases are functional and hardwearing. Not a trend-follower — prefers timeless basics that last. Likely resistant to formal or embellished suggestions. Good candidate for quality selvedge denim, heavy-duty outerwear, or well-made flannel shirts in new colourways."
+  },
+  {
+    "name": "Ingrid Larsen",
+    "gender": "female",
+    "previousPurchases": [
+      "white wool coat",
+      "cashmere beret",
+      "leather tote"
+    ],
+    "size": "XS",
+    "time": "15:30",
+    "date": "",
+    "customerInsight": "Effortless Scandinavian minimalism — white, cream, and natural leather form a pristine, pared-back palette. Invests in a few well-chosen statement pieces: an impeccable white coat, a cashmere accessory, a quality leather bag. Prioritises quality over quantity and likely dislikes anything that feels overly fussy or decorative. May respond well to fine knitwear, structured leather accessories, or white and ivory separates."
+  },
+  {
+    "name": "Mateo Gomez",
+    "gender": "male",
+    "previousPurchases": [
+      "black turtleneck",
+      "charcoal trousers",
+      "suede chelsea boots"
+    ],
+    "size": "XXL",
+    "time": "10:45",
+    "date": "",
+    "customerInsight": "Continental sophistication with a monochromatic dark palette: black and charcoal throughout. The turtleneck-and-trousers combination points to a preference for clean, minimalist silhouettes with an intellectual edge. Suede chelsea boots elevate the look without breaking the tone. Unlikely to shop for bright colours or casual basics. Likely interested in structured overcoats, slim-fit trousers, or premium knitwear in dark, neutral tones."
+  },
+  {
+    "name": "Zara Ahmed",
+    "gender": "female",
+    "previousPurchases": [
+      "maroon velvet blazer",
+      "silk camisole",
+      "gold clutch"
+    ],
+    "size": "XS",
+    "time": "17:00",
+    "date": "",
+    "customerInsight": "Evening-ready and confident with bold jewel-tone choices — maroon velvet makes a strong statement. Balances impact with silk and gold for a polished, layered finish. Every purchase is evening or occasion-appropriate; no casual items in history. Prefers rich fabrics with visual texture. Likely responds well to velvet, satin, or embellished pieces in deep tones such as forest green, plum, or midnight blue."
+  },
+  {
+    "name": "Henrik Olsen",
+    "gender": "male",
+    "previousPurchases": [
+      "navy quilted jacket",
+      "wool sweater",
+      "brown leather sneakers"
+    ],
+    "size": "S",
+    "time": "12:15",
+    "date": "",
+    "customerInsight": "Practical and unpretentious with a preference for functional outerwear and comfortable footwear. Navy and brown are his go-to colours — easy, versatile, and reliable. The quilted jacket and wool sweater indicate a priority on warmth and layering. Brown leather sneakers bridge casual and smart-casual occasions. Likely a good candidate for performance outerwear, quality chunky knitwear, or casual trousers in navy or khaki."
+  },
+  {
+    "name": "Beatriz Silva",
+    "gender": "female",
+    "previousPurchases": [
+      "yellow cotton dress",
+      "white espadrilles",
+      "raffia bag"
+    ],
+    "size": "S",
+    "time": "14:00",
+    "date": "",
+    "customerInsight": "Bright and cheerful warm-weather dresser who embraces colour and sunshine-inspired tones. Yellow and white create a fresh, joyful palette. Natural materials — cotton and raffia — are consistently chosen, reflecting an earthy, artisanal sensibility. All purchases suit a coastal or holiday wardrobe. Likely responds well to floral prints, bright sundresses, or new arrivals in citrus, coral, or tropical colourways."
+  },
+  {
+    "name": "Adam Novak",
+    "gender": "male",
+    "previousPurchases": [
+      "khaki field jacket",
+      "denim shirt",
+      "tan boots"
+    ],
+    "size": "XL",
+    "time": "09:45",
+    "date": "",
+    "customerInsight": "Utility and adventure-inspired dresser who gravitates toward durable, outdoors-ready pieces. Khaki, tan, and denim form a rugged, cohesive earth-tone palette. Field jacket and robust boots suggest a preference for layered, active casual looks. Not a formal shopper. Likely interested in cargo-style outerwear, heavy denim, or heritage-inspired workwear pieces. Comfort and functionality take priority over refinement."
+  },
+  {
+    "name": "Rina Suzuki",
+    "gender": "female",
+    "previousPurchases": [
+      "lavender silk blouse",
+      "grey wool skirt",
+      "pearl necklace"
+    ],
+    "size": "M",
+    "time": "16:30",
+    "date": "",
+    "customerInsight": "Delicate and refined with a palette of soft lavender, grey, and pearl. Silk and wool reflect a preference for quality natural fibres and tactile elegance. Pearl jewellery adds a classic, timeless accent. The combination of blouse and skirt suggests she prefers separates that can be mixed and matched. Likely interested in other soft-toned silk pieces, knitted skirts, or refined jewellery in silver or mother-of-pearl."
+  },
+  {
+    "name": "Gabriel Costa",
+    "gender": "male",
+    "previousPurchases": [
+      "white linen suit",
+      "pale blue shirt",
+      "leather sandals"
+    ],
+    "size": "L",
+    "time": "11:30",
+    "date": "",
+    "customerInsight": "Mediterranean summer sophistication — a white linen suit is a bold but elegant choice, softened by pale blue and natural leather sandals. Prefers breathable, light fabrics suited to warm climates. Not afraid of head-to-toe light tones. Likely shops for warm-season occasions — garden parties, beach weddings, or resort events. Could respond well to linen separates, linen-blend blazers, or quality leather loafers."
+  },
+  {
+    "name": "Eleanor Hughes",
+    "gender": "female",
+    "previousPurchases": [
+      "forest green coat",
+      "tartan wool scarf",
+      "leather riding boots"
+    ],
+    "size": "L",
+    "time": "13:15",
+    "date": "",
+    "customerInsight": "British countryside aesthetic with a love of heritage patterns and natural tones. Forest green and tartan are the defining palette choices — rich, earthy, and distinctly classic. Riding boots confirm an equestrian or rural influence. Invests in quality outerwear and sturdy footwear over decorative accessories. Likely interested in waxed jackets, Heritage wool knitwear, tweed pieces, or plaid-patterned skirts and blankets."
+  },
+  {
+    "name": "Yusuf Demir",
+    "gender": "male",
+    "previousPurchases": [
+      "black bomber jacket",
+      "white tee",
+      "grey sneakers"
+    ],
+    "size": "XL",
+    "time": "18:45",
+    "date": "",
+    "customerInsight": "Contemporary urban dresser with a clean, minimal approach to casual wear. Black bomber, white tee, and grey sneakers form a pared-back but current wardrobe. Monochrome palette with tonal contrast — not drawn to bold colours or prints. Likely interested in quality essential tees, technical outerwear, or updated sneaker styles in grey, black, or off-white. Would probably not respond to formal or heavily branded pieces."
+  },
+  {
+    "name": "Clara Jensen",
+    "gender": "female",
+    "previousPurchases": [
+      "blush pink gown",
+      "crystal earrings",
+      "satin heels"
+    ],
+    "size": "M",
+    "time": "10:30",
+    "date": "",
+    "customerInsight": "Romantic and dreamy occasion dresser with a preference for soft blush tones and sparkle. Crystal accessories and satin heels complement a gown beautifully, indicating she shops for complete, cohesive occasion looks. All purchases are formal or semi-formal. Responds strongly to feminine silhouettes and delicate embellishment. Likely interested in cocktail dresses, silk evening separates, or jewellery in rose gold and crystal."
+  },
+  {
+    "name": "Viktor Petrov",
+    "gender": "male",
+    "previousPurchases": [
+      "brown leather jacket",
+      "olive cargo trousers",
+      "suede desert boots"
+    ],
+    "size": "L",
+    "time": "15:00",
+    "date": "",
+    "customerInsight": "Rugged and adventurous with an earthy, military-tinged palette of brown, olive, and tan. Leather, suede, and cargo styling are defining elements — durability and character are important. Desert boots bridge casual and outdoor occasions. Layers are part of his approach: jacket over base layers. Likely interested in heritage leather pieces, utility-style outerwear, or cargo-inspired trousers in khaki, stone, or forest green."
+  }
+]

@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+xcuserdata/
+DerivedData/
+*.xcuserstate
+*.xcscmblueprint
+*.moved-aside
+*.hmap
+*.ipa
+*.xcarchive
+build/
+
+# Core ML compiled cache (generated at runtime, stored in caches directory)
+*.mlmodelc
+
+# Models — large binary files (~386 MB total), not suitable for git
+# Re-generate: siglip-convert/bin/python Scripts/convert_siglip.py --output Models/SigLIP
+Models/
+
+# Python virtual environment
+siglip-convert/
+__pycache__/
+*.py[cod]
+*.pyo

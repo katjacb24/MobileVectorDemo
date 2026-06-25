@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD0000000000000000000001 /* MobileDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0000000000000000000001 /* MobileDemoApp.swift */; };
+		DD0000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0000000000000000000002 /* ContentView.swift */; };
+		DD0000000000000000000003 /* StoreAssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0000000000000000000003 /* StoreAssistantView.swift */; };
+		DD0000000000000000000004 /* SigLIPEmbedder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0000000000000000000004 /* SigLIPEmbedder.swift */; };
+		DD0000000000000000000005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC0000000000000000000005 /* Assets.xcassets */; };
+		DD0000000000000000000006 /* SigLIPVision.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = CC0000000000000000000006 /* SigLIPVision.mlpackage */; };
+		DD0000000000000000000007 /* SigLIPText.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = CC0000000000000000000007 /* SigLIPText.mlpackage */; };
+		DD0000000000000000000008 /* vocab.json in Resources */ = {isa = PBXBuildFile; fileRef = CC0000000000000000000008 /* vocab.json */; };
+		DD0000000000000000000009 /* CouchbaseLiteSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 910000000000000000000001 /* CouchbaseLiteSwift */; };
+		DD000000000000000000000A /* CouchbaseLiteVectorSearch in Frameworks */ = {isa = PBXBuildFile; productRef = 910000000000000000000002 /* CouchbaseLiteVectorSearch */; };
+		DD000000000000000000000B /* InventoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0000000000000000000009 /* InventoryStore.swift */; };
+		DD000000000000000000000C /* InventorySeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC000000000000000000000A /* InventorySeeder.swift */; };
+		DD000000000000000000000D /* Catalog in Resources */ = {isa = PBXBuildFile; fileRef = CC000000000000000000000B /* Catalog */; };
+		DD000000000000000000000E /* Customers in Resources */ = {isa = PBXBuildFile; fileRef = CC000000000000000000000C /* Customers */; };
+		DD000000000000000000000F /* AppointmentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC000000000000000000000D /* AppointmentStore.swift */; };
+		DD0000000000000000000010 /* AppointmentSeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC000000000000000000000E /* AppointmentSeeder.swift */; };
+		DD0000000000000000000014 /* LLM in Frameworks */ = {isa = PBXBuildFile; productRef = 910000000000000000000004 /* LLM */; };
+		DD0000000000000000000015 /* LlamaEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0000000000000000000012 /* LlamaEngine.swift */; };
+		DD0000000000000000000016 /* llama-3.2-3b-instruct-q4_k_m.gguf in Resources */ = {isa = PBXBuildFile; fileRef = CC0000000000000000000013 /* llama-3.2-3b-instruct-q4_k_m.gguf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC0000000000000000000000 /* MobileDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0000000000000000000001 /* MobileDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDemoApp.swift; sourceTree = "<group>"; };
+		CC0000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC0000000000000000000003 /* StoreAssistantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreAssistantView.swift; sourceTree = "<group>"; };
+		CC0000000000000000000004 /* SigLIPEmbedder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigLIPEmbedder.swift; sourceTree = "<group>"; };
+		CC0000000000000000000005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC0000000000000000000009 /* InventoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryStore.swift; sourceTree = "<group>"; };
+		CC000000000000000000000A /* InventorySeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventorySeeder.swift; sourceTree = "<group>"; };
+		CC0000000000000000000006 /* SigLIPVision.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper.mlpackage; name = SigLIPVision.mlpackage; path = Models/SigLIP/SigLIPVision.mlpackage; sourceTree = SOURCE_ROOT; };
+		CC0000000000000000000007 /* SigLIPText.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper.mlpackage; name = SigLIPText.mlpackage; path = Models/SigLIP/SigLIPText.mlpackage; sourceTree = SOURCE_ROOT; };
+		CC0000000000000000000008 /* vocab.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = vocab.json; path = Models/SigLIP/tokenizer/vocab.json; sourceTree = SOURCE_ROOT; };
+		CC000000000000000000000B /* Catalog */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Catalog; sourceTree = SOURCE_ROOT; };
+		CC000000000000000000000C /* Customers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Customers; sourceTree = SOURCE_ROOT; };
+		CC000000000000000000000D /* AppointmentStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentStore.swift; sourceTree = "<group>"; };
+		CC000000000000000000000E /* AppointmentSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentSeeder.swift; sourceTree = "<group>"; };
+		CC0000000000000000000012 /* LlamaEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LlamaEngine.swift; sourceTree = "<group>"; };
+		CC0000000000000000000013 /* llama-3.2-3b-instruct-q4_k_m.gguf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "llama-3.2-3b-instruct-q4_k_m.gguf"; path = "Models/Llama/llama-3.2-3b-instruct-q4_k_m.gguf"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE0000000000000000000003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0000000000000000000009 /* CouchbaseLiteSwift in Frameworks */,
+				DD000000000000000000000A /* CouchbaseLiteVectorSearch in Frameworks */,
+				DD0000000000000000000014 /* LLM in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB0000000000000000000001 /* root */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000000000000000000002 /* MobileDemo */,
+				BB0000000000000000000004 /* Models */,
+				CC000000000000000000000B /* Catalog */,
+				CC000000000000000000000C /* Customers */,
+				BB0000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB0000000000000000000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CC0000000000000000000006 /* SigLIPVision.mlpackage */,
+				CC0000000000000000000007 /* SigLIPText.mlpackage */,
+				CC0000000000000000000008 /* vocab.json */,
+				CC0000000000000000000013 /* llama-3.2-3b-instruct-q4_k_m.gguf */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BB0000000000000000000002 /* MobileDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CC0000000000000000000001 /* MobileDemoApp.swift */,
+				CC0000000000000000000002 /* ContentView.swift */,
+				CC0000000000000000000003 /* StoreAssistantView.swift */,
+				CC0000000000000000000004 /* SigLIPEmbedder.swift */,
+				CC0000000000000000000009 /* InventoryStore.swift */,
+				CC000000000000000000000A /* InventorySeeder.swift */,
+				CC000000000000000000000D /* AppointmentStore.swift */,
+				CC000000000000000000000E /* AppointmentSeeder.swift */,
+				CC0000000000000000000012 /* LlamaEngine.swift */,
+				CC0000000000000000000005 /* Assets.xcassets */,
+			);
+			path = MobileDemo;
+			sourceTree = "<group>";
+		};
+		BB0000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC0000000000000000000000 /* MobileDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF0000000000000000000001 /* MobileDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11000000000000000000AA02 /* Build configuration list for PBXNativeTarget "MobileDemo" */;
+			buildPhases = (
+				EE0000000000000000000001 /* Sources */,
+				EE0000000000000000000002 /* Resources */,
+				EE0000000000000000000003 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileDemo;
+			packageProductDependencies = (
+				910000000000000000000001 /* CouchbaseLiteSwift */,
+				910000000000000000000002 /* CouchbaseLiteVectorSearch */,
+				910000000000000000000004 /* LLM */,
+			);
+			productName = MobileDemo;
+			productReference = CC0000000000000000000000 /* MobileDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA0000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					FF0000000000000000000001 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 11000000000000000000AA01 /* Build configuration list for PBXProject "MobileDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB0000000000000000000001;
+			packageReferences = (
+				900000000000000000000001 /* XCRemoteSwiftPackageReference "couchbase-lite-swift-ee" */,
+				900000000000000000000002 /* XCRemoteSwiftPackageReference "couchbase-lite-vector-search-spm" */,
+				900000000000000000000004 /* XCRemoteSwiftPackageReference "LLM.swift" */,
+			);
+			productRefGroup = BB0000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF0000000000000000000001 /* MobileDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE0000000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0000000000000000000005 /* Assets.xcassets in Resources */,
+				DD0000000000000000000008 /* vocab.json in Resources */,
+				DD000000000000000000000D /* Catalog in Resources */,
+				DD000000000000000000000E /* Customers in Resources */,
+				DD0000000000000000000016 /* llama-3.2-3b-instruct-q4_k_m.gguf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE0000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0000000000000000000001 /* MobileDemoApp.swift in Sources */,
+				DD0000000000000000000002 /* ContentView.swift in Sources */,
+				DD0000000000000000000003 /* StoreAssistantView.swift in Sources */,
+				DD0000000000000000000004 /* SigLIPEmbedder.swift in Sources */,
+				DD000000000000000000000B /* InventoryStore.swift in Sources */,
+				DD000000000000000000000C /* InventorySeeder.swift in Sources */,
+				DD000000000000000000000F /* AppointmentStore.swift in Sources */,
+				DD0000000000000000000010 /* AppointmentSeeder.swift in Sources */,
+				DD0000000000000000000015 /* LlamaEngine.swift in Sources */,
+				DD0000000000000000000006 /* SigLIPVision.mlpackage in Sources */,
+				DD0000000000000000000007 /* SigLIPText.mlpackage in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		22000000000000000000BB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22000000000000000000BB02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22000000000000000000BB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Store Assistant";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take photos of items in the store to find similar products in the inventory.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Choose a photo to find similar products in the inventory.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledemo.sigliptest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22000000000000000000BB04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Store Assistant";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take photos of items in the store to find similar products in the inventory.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Choose a photo to find similar products in the inventory.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledemo.sigliptest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11000000000000000000AA01 /* Build configuration list for PBXProject "MobileDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22000000000000000000BB01 /* Debug */,
+				22000000000000000000BB02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11000000000000000000AA02 /* Build configuration list for PBXNativeTarget "MobileDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22000000000000000000BB03 /* Debug */,
+				22000000000000000000BB04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		900000000000000000000001 /* XCRemoteSwiftPackageReference "couchbase-lite-swift-ee" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/couchbase/couchbase-lite-swift-ee.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.3;
+			};
+		};
+		900000000000000000000002 /* XCRemoteSwiftPackageReference "couchbase-lite-vector-search-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/couchbase/couchbase-lite-vector-search-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		900000000000000000000004 /* XCRemoteSwiftPackageReference "LLM.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/eastriverlee/LLM.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		910000000000000000000001 /* CouchbaseLiteSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 900000000000000000000001 /* XCRemoteSwiftPackageReference "couchbase-lite-swift-ee" */;
+			productName = CouchbaseLiteSwift;
+		};
+		910000000000000000000002 /* CouchbaseLiteVectorSearch */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 900000000000000000000002 /* XCRemoteSwiftPackageReference "couchbase-lite-vector-search-spm" */;
+			productName = CouchbaseLiteVectorSearch;
+		};
+		910000000000000000000004 /* LLM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 900000000000000000000004 /* XCRemoteSwiftPackageReference "LLM.swift" */;
+			productName = LLM;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+	};
+	rootObject = AA0000000000000000000001 /* Project object */;
+}
